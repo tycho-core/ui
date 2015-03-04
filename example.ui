@@ -1,0 +1,56 @@
+version = 1;
+widget panel
+{
+	scale = [ 1, 1, 1 ];
+	trans = [ 0, 0, 0 ];
+	widget_list = [
+		widget button start_mp
+		{
+			scale = [ 1.0, 1.0, 1.0 ];
+			trans = [ 0.0, 0.0, 0.0 ];
+			image = "/ui/main_menu/start_sp.png";
+			image_h = "/ui/main_menu/start_sp_h.png";
+		},
+		widget button button01
+		{
+			scale = [ 0.85,0.1035, 0.0 ];
+			trans = [ 0.25, 0.1025, 1.0 ];
+			image = "images/main_menu_sp.png";
+			image_h = "images/main_menu_sp_s.png";
+		},
+		widget panel
+		{
+			scale = [ 1.0, 1.0, 1.0 ];
+			trans = [ 0.0, 0.0, 0.0 ];
+			widget_list = [
+				widget button start_mp
+				{
+					scale = [ 1.0, 1.0, 1.0 ];
+					trans = [ 0.0, 0.0, 0.0 ];
+					image = "/ui/main_menu/start_sp.png";
+					image_h = "/ui/main_menu/start_sp_h.png";
+				},
+				widget button button01
+				{
+					scale = [ 0.85,0.1035, 0.0 ];
+					trans = [ 0.25, 0.1025, 1.0 ];
+					image = "images/main_menu_sp.png";
+					image_h = "images/main_menu_sp_s.png";
+				}
+			];
+		},
+		widget image 
+		{
+			scale = [ 1.0, 1.0, 1.0 ];
+			trans = [ 0.0, 0.0, 0.0 ];
+			image = "/ui/logo.png";
+		},
+		widget_label
+		{
+			scale = [ 1.0, 1.0, 1.0 ];
+			trans = [ 0.0, 0.0, 0.0 ];
+			font  = "courier_new";
+			text  = "hello world!";
+		}				
+	];
+};

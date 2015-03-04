@@ -1,0 +1,44 @@
+//////////////////////////////////////////////////////////////////////////////
+// Tycho Game Library
+// Copyright (C) 2008 Martin Slater
+// Created : Monday, 19 May 2008 8:45:49 PM
+//////////////////////////////////////////////////////////////////////////////
+#if _MSC_VER > 1000
+#pragma once
+#endif  // _MSC_VER
+
+#ifndef __TEXTBOX_H_A5BF3C05_F664_490D_81F5_A229F5CE8E4F_
+#define __TEXTBOX_H_A5BF3C05_F664_490D_81F5_A229F5CE8E4F_
+
+//////////////////////////////////////////////////////////////////////////////
+// INCLUDES
+//////////////////////////////////////////////////////////////////////////////
+#include "ui/ui_abi.h"
+#include "ui/widget.h"
+
+//////////////////////////////////////////////////////////////////////////////
+// CLASS
+//////////////////////////////////////////////////////////////////////////////
+
+namespace tycho
+{
+namespace ui
+{
+
+    class TYCHO_UI_ABI textbox : public widget
+    {
+    public:
+		/// constructor
+		/// \param font font to render text with
+		textbox(ui::font_ptr, int max_len);
+		
+    
+    private:
+		font_ptr	m_font;
+		std::string m_text;
+    };
+
+} // end namespace
+} // end namespace
+
+#endif // __TEXTBOX_H_A5BF3C05_F664_490D_81F5_A229F5CE8E4F_

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Ui Library</Name>
+  <Header>namespace tycho
+{
+namespace ui
+{
+
+    $(ClassDef)
+
+} // end namespace
+} // end namespace</Header>
+  <Source>namespace tycho
+{
+namespace ui
+{
+
+    //--------------------------------------------------------------------
+
+
+
+    //--------------------------------------------------------------------
+
+
+} // end namespace
+} // end namespace</Source>
+  <SrcDir>./</SrcDir>
+  <IncDir>./</IncDir>
+  <HdrIncludes>#include "ui/ui_abi.h"
+#include "ui/forward_decls.h"
+</HdrIncludes>
+  <SrcIncludes />
+  <ABI>TYCHO_UI_ABI</ABI>
+</ProjectSettings>
