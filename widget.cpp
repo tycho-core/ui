@@ -79,9 +79,9 @@ namespace ui
 		if(!name) 
 			return false;
 		
-		const int len = m_name.length();
+		const size_t len = m_name.length();
 		const char* end = &name[len];
-		if((core::strncmp(name, m_name.c_str(), len) == 0) &&
+		if((core::strncmp(name, m_name.c_str(), static_cast<int>(len)) == 0) &&
 		   (*end == '.' || *end == 0))
 		{
 			// name matches, advance to next part.
