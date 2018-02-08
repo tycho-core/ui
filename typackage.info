@@ -6,6 +6,8 @@
 		"tycore:input:master",
 		"tybuildtools:lemon:master",
 		"tybuildtools:flex:master"
+		"tycore:test:master"
+
 	],
 	"workspace_mapping" : "@{ty_hub_lib}"
 }
