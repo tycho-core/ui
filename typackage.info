@@ -5,7 +5,7 @@
 		"tycore:engine:master",
 		"tycore:input:master",
 		"tybuildtools:lemon:master",
-		"tybuildtools:flex:master"
+		"tybuildtools:flex:master",
 		"tycore:test:master"
 
 	],
